@@ -39,6 +39,6 @@ echo "\e[1;31m Riskis7 : Jumlah Bom Pesan? \n\e[0;36m Riskis7 : ";
 $jumlah = trim(fgets(STDIN));
 echo "\e[1;31m Riskis7 : Masukan Angka --> 0 \n\e[0;36m Riskis7 : ";
 $jeda = trim(fgets(STDIN));
-$execute = jdidbom($nomor, $jumlah, $jeda);
+$execute = jdidbom($nomor, jumlah, jeda);
 print $execute;
 ?>
